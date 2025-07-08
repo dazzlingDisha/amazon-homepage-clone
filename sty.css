@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:60px;
+    background-color: #0f1111;
+    color: white; 
+}
+.nav-logo{
+    height:50px;
+    width: 113px;
+}
+.logo{
+    height:50px;
+    width: 113px;
+    background-size: cover;
+    background-image: url(image.png);
+}
+.border{
+    border:2px solid transparent;
+}
+.add-icon{
+    align-items: center;
+    
+    display: flex;
+}
+.add-first{
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: 14px;
+}
+.add-sec{
+    font-weight: bold;
+    margin-left: 3px;
+    font-size: 16px;
+}
+.country-icon{
+    display: inline-block;
+    
+}
+.select-search{
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+
+}
+.country{
+    display: flex;
+    align-items: center;
+    height: 69px;
+    width: 60px;
+}
+.sup{
+    height: 40px;
+    width: 45px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+    font-size: 1.2rem;
+    background-color: #FEBD69;
+}
+.select-searched{
+    font-size: 18.38px;
+    color: white;
+    font-weight: bold;
+    background-color: #0f1111;
+    margin-left: 5px;
+    border: none;
+}
+.border:hover{
+    border:2px solid white;
+}
+.search-name{
+    font-size: 1rem;
+    width:100%
+}
+.nav-search{
+    justify-content: space-evenly;
+    border-radius: 5px;
+    height: 40px;
+    width: 620px;
+    display: flex;
+}
+.nav-address{
+    margin: 5px 2px 5px 0;
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+}
+.nav-search:hover{
+    border:2px solid #ea8c10;
+}
+.cart i{
+    font-size:35px;
+}
+.cart{
+    font-weight: 700;
+}
+.panel{
+    color: white;
+    align-items: center;
+    height: 39px;
+    background-color: #222f3d;
+    display: flex;
+    
+    
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: .85rem;
+    font-weight: 700;
+}
+.panel-all{
+    margin-left: 20px;
+    display: inline-block;
+}
+.panel-ops{
+    margin-left:15px;
+    width: 90%;
+    font-size: .85rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    margin-left: 10px;
+}
+.hero-section{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 350px;
+    background-size: cover;
+    background-image: url(https://m.media-amazon.com/images/I/81hIlE5xocL._SX3000_.jpg);
+}
+.hero-message a{
+    color: #007185;
+}
+.hero-message{
+    margin-bottom: 30px;
+    
+    font-size: .85rem;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 80%;
+    background-color: white;
+}
+.box{
+
+    background-color: white;
+    margin-top: 15px;
+    padding:20px 0px 15px ;
+    
+    height: 400px;
+    width: 23%;
+    
+}
+.box1-content p{
+    color:#007185;
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: .85rem;
+}
+.box h2{
+    font-size: 18px;
+    color:#0f1111;
+}
+
+.box-sec{
+    flex-wrap: wrap;
+    background-color: #E6E9E9;
+    justify-content: space-evenly;
+    display: flex;
+}
+.box1-img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 280px;
+    background-size: cover;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg);
+}
+.box1-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box2-img{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 250px;
+    display: flex;
+}
+#box2-img1{
+    height:130px;
+    width:45%;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-image: url(CleaningTool_1x._SY116_CB563137408_.jpg);
+}
+#box2-img2{
+    height:130px;
+    width:45%;
+    
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/HomeStorage_1x._SY116_CB563137408_.jpg);
+}
+
+#box2-img3{
+    height:130px;
+    width:45%;
+    margin-top: 25px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/HomeDecor_1x._SY116_CB563137408_.jpg);
+}
+#box2-img4{
+    height:130px;
+    width:45%;
+    margin-top: 25px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Bedding_1x._SY116_CB563137408_.jpg);
+}
+.des1{
+    width:150px;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+}
+.pa{
+    color:#007185;
+    margin-top: 90px;
+    font-weight: 500;
+    font-size: .85rem;
+}
+footer{
+    margin-top: 15px;
+}
+.footpanel1{
+    background-color: #37475a;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-size: .85rem;
+}
+.footpanel2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color:white;
+    height:500px;
+}
+.footpanel2 a{
+    font-weight: 550;
+    margin-top: 10px;
+    font-size: .85rem;
+    color: #dddddd;
+    display: block;
+}
+ul{
+    font-weight: 700;
+    margin-top: 50px;
+}
+.footpanel3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #222f3d;
+    border-top: .5px solid white;
+}
+.logo1{
+    height:60px;
+    width: 50%;
+    background-size: cover;
+    background-image: url(foot.png);}
+.footpanel4{
+    height: 76px;
+    background-color: #0f1111;
+    color: white;
+}
+.pages{
+    font-size: .7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    font-size: .7rem;
+    text-align: center;
+    padding-top: 5px;
+}
