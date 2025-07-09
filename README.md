@@ -29,9 +29,8 @@ This is a fully responsive clone of Amazon's homepage built using only **HTML an
 - Building real-world UI replicas from scratch
 
 ## 💡 Live Demo
+👉 [Click here to view the live website](https://dazzlingdisha.github.io/amazon-homepage-clone/)
 
-🚀 Coming soon on GitHub Pages  
-_(Link will be updated here once hosted)_
 
 ## 📸 Preview
 
